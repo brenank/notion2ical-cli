@@ -36,6 +36,16 @@ export default eslintConfig(
   eslintConfigPrettier,
   eslintPluginPrettierRecommended,
   {
-    ignores: ["./dist", "./change", "./node_modules"],
+    rules: {
+      "n/hashbang": [
+        "error",
+        {
+          additionalExecutables: ["src/cli.ts"],
+        },
+      ],
+    },
+  },
+  {
+    ignores: ["./dist", "./change", "./CHANGELOG*", "./node_modules"],
   },
 );
