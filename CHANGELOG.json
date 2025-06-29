@@ -1,0 +1,20 @@
+{
+  "name": "notion2ical-cli",
+  "entries": [
+    {
+      "date": "Sun, 29 Jun 2025 07:12:02 GMT",
+      "version": "0.0.2",
+      "tag": "notion2ical-cli_v0.0.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "52626736a1797d2a20efb6c5e8fbedd450a7b3fe",
+            "comment": "add: cli"
+          }
+        ]
+      }
+    }
+  ]
+}

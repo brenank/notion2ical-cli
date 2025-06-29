@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "add: cli",
-  "packageName": "notion2ical-cli",
-  "email": "brenankly@gmail.com",
-  "dependentChangeType": "patch"
-}
