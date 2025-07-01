@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  web:
+    image: nginx:alpine
+    depends_on:
+      - updater
+    volumes:
+      - ical-data:/usr/share/nginx/html:ro
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  updater:
+    build: ./updater
+    volumes:
+      - ical-data:/data
+    environment:
+      CRON_SCHEDULE: "*/15 * * * *" # Run every 15 minutes
+      NOTION2ICAL_ARGS: "--incremental --cache-max-age 43200 -o /data/calendar.ics"
+      NOTION_AUTH_TOKEN: "${NOTION_AUTH_TOKEN}"
+      NOTION_DATABASE_ID: "${NOTION_DATABASE_ID}"
+      NOTION_TITLE_PROPERTY_NAME: "${NOTION_TITLE_PROPERTY_NAME}"
+      NOTION_DATE_PROPERTY_NAME: "${NOTION_DATE_PROPERTY_NAME}"
+
+    restart: unless-stopped
+
+volumes:
+  ical-data:
