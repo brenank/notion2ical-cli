@@ -25,10 +25,10 @@ npx notion2ical-cli --help
 
 ```sh
 notion2ical-cli \
-  --auth <NOTION_TOKEN> \
-  --database-id <DATABASE_ID> \
-  --title-property-name <TITLE_PROPERTY> \
-  --date-property-name <DATE_PROPERTY>
+  --auth <token> \
+  --database-id <id> \
+  --title-property-name <name> \
+  --date-property-name <name>
 ```
 
 ### Options
@@ -38,14 +38,14 @@ notion2ical-cli \
 - `-t, --title-property-name <name>`: (Required) Name of the property containing the event title (or set `NOTION_TITLE_PROPERTY_NAME` in env)
 - `-e, --date-property-name <name>`: (Required) Name of the property containing the event start/end date (or set `NOTION_DATE_PROPERTY_NAME` in env)
 - `-s, --desc-property-name <name>`: (Optional) Name of the property containing the event description (or set `NOTION_DESC_PROPERTY_NAME` in env)
-- `-f, --fallback-duration <min>`: (Optional) Duration for events without an end, in minutes (must be a positive integer, default: 60)
+- `-f, --fallback-duration <min>`: (Optional) Default duration for events without an end, in minutes (must be a positive integer, default: 60)
 - `-i, --ignore-missing-dates`: (Optional) Ignore events with no date set (default: false)
 - `--calendar-name <name>`: (Optional) Name of the calendar to create (default: Notion Calendar)
 - `--from-date <date>`: (Optional) Include events starting on or after this date (inclusive). Accepts `YYYY-MM-DD`, `YYYY/MM/DD`, `YYYY.MM.DD`, or full ISO 8601 (e.g., `2025-06-28T14:30:00Z`)
 - `--until-date <date>`: (Optional) Include events starting on or before this date (inclusive). Accepts `YYYY-MM-DD`, `YYYY/MM/DD`, `YYYY.MM.DD`, or full ISO 8601 (e.g., `2025-06-28T14:30:00Z`)
 - `--incremental`: (Optional) Enable incremental sync (enables --cache-dir and --cache-max-age options, default: false)
 - `--cache-dir <path>`: (Optional) Directory to store cached sync state (requires --incremental, default: system cache folder; will be created if it does not exist)
-- `--cache-max-age <sec>`: (Optional) Perform a full resync if the cache is older than this many seconds (requires --incremental, a positive integer in seconds or '0' to disable, default: 0)
+- `--cache-max-age <sec>`: (Optional) Perform a full resync if the cache is older than this many seconds (requires --incremental, a non-negative integer in seconds or 0 to disable, default: 0)
 - `-v, --verbose`: (Optional) Enable verbose logging (can be used multiple times for more verbosity)
 - `-o, --output <file>`: (Optional) Write the generated `.ics` to a file instead of stdout
 
