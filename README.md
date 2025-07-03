@@ -1,5 +1,7 @@
 # notion2ical-cli
 
+[![npm version](https://img.shields.io/npm/v/notion2ical-cli.svg)](https://www.npmjs.com/package/notion2ical-cli) [![GitHub repository](https://img.shields.io/badge/GitHub-Repo-blue?style=flat-square&logo=github)](https://github.com/brenank/notion2ical-cli)
+
 A command-line tool that converts a Notion calendar database into iCalendar (`.ics`) format.
 
 ## Features
@@ -84,4 +86,4 @@ MIT
 ---
 
 **See also:**
-- [notion2ical](https://github.com/brenank/notion2ical) (library)
+- [notion2ical](https://www.npmjs.com/package/notion2ical) (library)
