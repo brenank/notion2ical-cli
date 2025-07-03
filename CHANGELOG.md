@@ -1,8 +1,16 @@
 # Change Log - notion2ical-cli
 
-<!-- This log was last generated on Wed, 02 Jul 2025 06:45:08 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 03 Jul 2025 04:39:46 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.0.5
+
+Thu, 03 Jul 2025 04:39:46 GMT
+
+### Patches
+
+- Update README.md (brenankly@gmail.com)
 
 ## 0.0.4
 

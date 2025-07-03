@@ -2,6 +2,21 @@
   "name": "notion2ical-cli",
   "entries": [
     {
+      "date": "Thu, 03 Jul 2025 04:39:46 GMT",
+      "version": "0.0.5",
+      "tag": "notion2ical-cli_v0.0.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "ea80ba0376c1befc5476df006d025dd301c37a87",
+            "comment": "Update README.md"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 02 Jul 2025 06:45:08 GMT",
       "version": "0.0.4",
       "tag": "notion2ical-cli_v0.0.4",
