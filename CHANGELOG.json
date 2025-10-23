@@ -2,6 +2,21 @@
   "name": "notion2ical-cli",
   "entries": [
     {
+      "date": "Thu, 23 Oct 2025 03:14:55 GMT",
+      "version": "0.0.6",
+      "tag": "notion2ical-cli_v0.0.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "30c06591015fac52e25422bcbcbecef81226a1a7",
+            "comment": "feat: support all-day events and cache versioning"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 03 Jul 2025 04:39:46 GMT",
       "version": "0.0.5",
       "tag": "notion2ical-cli_v0.0.5",
