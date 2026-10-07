@@ -1,8 +1,16 @@
 # Change Log - notion2ical-cli
 
-<!-- This log was last generated on Wed, 07 Oct 2026 06:00:57 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 07 Oct 2026 06:12:37 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.0.8
+
+Wed, 07 Oct 2026 06:12:37 GMT
+
+### Patches
+
+- build(deps): bump fast-copy (brenankly@gmail.com)
 
 ## 0.0.7
 
