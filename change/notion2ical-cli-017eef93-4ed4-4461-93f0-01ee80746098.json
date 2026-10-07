@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "build(deps): bump the npm_and_yarn group across 1 directory with 9 updates",
+  "packageName": "notion2ical-cli",
+  "email": "brenankly@gmail.com",
+  "dependentChangeType": "patch"
+}
