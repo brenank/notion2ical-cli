@@ -1,8 +1,16 @@
 # Change Log - notion2ical-cli
 
-<!-- This log was last generated on Thu, 23 Oct 2025 03:14:55 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 07 Oct 2026 06:00:57 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.0.7
+
+Wed, 07 Oct 2026 06:00:57 GMT
+
+### Patches
+
+- build(deps): bump the npm_and_yarn group across 1 directory with 9 updates (brenankly@gmail.com)
 
 ## 0.0.6
 
