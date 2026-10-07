@@ -2,6 +2,21 @@
   "name": "notion2ical-cli",
   "entries": [
     {
+      "date": "Wed, 07 Oct 2026 06:06:26 GMT",
+      "version": "0.0.7",
+      "tag": "notion2ical-cli_v0.0.7",
+      "comments": {
+        "none": [
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "c4000c22351770317e80bae3ac7e129f980470a8",
+            "comment": "Synchronize already-published 0.0.7"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 07 Oct 2026 06:00:57 GMT",
       "version": "0.0.7",
       "tag": "notion2ical-cli_v0.0.7",
