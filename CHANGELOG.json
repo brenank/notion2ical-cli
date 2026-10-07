@@ -2,6 +2,35 @@
   "name": "notion2ical-cli",
   "entries": [
     {
+      "date": "Wed, 07 Oct 2026 06:00:57 GMT",
+      "version": "0.0.7",
+      "tag": "notion2ical-cli_v0.0.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "913579f752bd137768b77f93a8f7f679d85d6730",
+            "comment": "build(deps): bump the npm_and_yarn group across 1 directory with 9 updates"
+          }
+        ],
+        "none": [
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "ea41b25cc09744a7d042c78dfc3eb7e513f488c9",
+            "comment": "CI workflow updates"
+          },
+          {
+            "author": "brenankly@gmail.com",
+            "package": "notion2ical-cli",
+            "commit": "3f74d1460bb209b8a218fab85937ff7a7edf91b7",
+            "comment": "CI workflow updates"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 23 Oct 2025 03:14:55 GMT",
       "version": "0.0.6",
       "tag": "notion2ical-cli_v0.0.6",
